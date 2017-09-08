@@ -2,21 +2,41 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.title {
+.logo,
+nav {
   text-align: center;
 }
 
-.nav ul {
-  text-align: center;
-}
-
-.nav a {
+nav a {
   color: #b64c6e;
-  text-decoration: none;
   border-bottom: 1px solid #b64c6e;
+  display: block;
+  text-decoration: none;
 }
 
-.nav a:hover {
+nav a:hover {
   color: #860927;
   border-color: #860927;
+}
+
+main header section {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+main header p {
+  max-width: 10em;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.btn-ghost {
+  border-color: #d89fb0;
+  color: #b64c6e;
+}
+
+.btn-ghost:hover {
+  border-color: #860927;
+  color: #860927;
+  background-color: #d89fb0;
 }
