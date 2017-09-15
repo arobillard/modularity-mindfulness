@@ -2,8 +2,9 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-.jap {
+[lang="ja"] {
   font-family: "Noto Sans Japanese", sans-serif;
+  font-style: normal;
 }
 
 .logo,
@@ -13,53 +14,47 @@ nav {
 
 nav a {
   color: #b64c6e;
-  border-bottom: 1.5px solid #b64c6e;
-  display: block;
+  border-bottom: 1.5px solid #d89fb0;
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #860927;
-  border-color: #860927;
+main header div {
+  border-top: 1.5px solid #e2e2e2;
+  border-bottom: 1.5px solid #e2e2e2;
 }
 
-main header section {
-  border-top: 2px solid #e2e2e2;
-  border-bottom: 2px solid #e2e2e2;
-}
-
-main header p.max-length {
-  max-width: 10em;
+.max-length {
+  max-width: 10rem;
 }
 
 .btn-ghost {
-  border-color: #d89fb0;
   color: #b64c6e;
-  border-width: 1.5px
+  border-color: #d89fb0;
+  border-width: 1.5px;
 }
 
 .btn-ghost:hover {
-  border-color: #860927;
-  color: #860927;
   background-color: #d89fb0;
+  color: #860927;
+  border-color: #860927;
 }
 
 footer {
-  border-top: 2px solid #e2e2e2;
+  border-top: 1.5px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 25em) {
 
-  main header p.max-length {
-      max-width: 15em;
+  .max-length {
+    max-width: 17rem;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  main header p.max-length {
-      max-width: 24em;
+  .max-length {
+    max-width: 24em;
   }
 
 }
@@ -70,7 +65,7 @@ footer {
     text-align: left;
   }
 
-  nav ul {
+  nav {
     text-align: right;
   }
 
