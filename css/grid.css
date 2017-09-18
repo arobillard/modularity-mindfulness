@@ -244,11 +244,20 @@
   align-self: center;
 }
 
-.unit-content-distribute[class*="unit-xs-"]:not([class*="xs-hidden"]),
-.content-distribute[class*="xs-"]:not([class*="xs-hidden"]),
-.unit-content-center:not([class*="xs-hidden"]),
-.unit-content-center-vertical:not([class*="xs-hidden"]),
-.unit-content-center-horizontal:not([class*="xs-hidden"]) {
+.unit-content-distribute[class*="unit-xs-"]:not([class*="-hidden"]),
+.unit-content-distribute[class*="xs-"]:not([class*="-hidden"]),
+.content-distribute[class*="unit-xs-"]:not([class*="-hidden"]),
+.content-distribute[class*="xs-"]:not([class*="-hidden"]),
+.unit-content-center:not([class*="-hidden"]),
+.unit-content-center-vertical:not([class*="-hidden"]),
+.unit-content-center-horizontal:not([class*="-hidden"]),
+.unit-xs-content-distribute[class*="unit-xs-"]:not([class*="-hidden"]),
+.unit-xs-content-distribute[class*="xs-"]:not([class*="-hidden"]),
+.xs-content-distribute[class*="unit-xs-"]:not([class*="-hidden"]),
+.xs-content-distribute[class*="xs-"]:not([class*="-hidden"]),
+.unit-xs-content-center:not([class*="-hidden"]),
+.unit-xs-content-center-vertical:not([class*="-hidden"]),
+.unit-xs-content-center-horizontal:not([class*="-hidden"]) {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -375,11 +384,20 @@
     align-self: center;
   }
 
-  .unit-content-distribute[class*="unit-s-"]:not([class*="s-hidden"]),
-  .content-distribute[class*="s-"]:not([class*="s-hidden"]),
-  .unit-content-center:not([class*="s-hidden"]),
-  .unit-content-center-vertical:not([class*="s-hidden"]),
-  .unit-content-center-horizontal:not([class*="s-hidden"]) {
+  .unit-content-distribute[class*="unit-s-"]:not([class*="-hidden"]),
+  .unit-content-distribute[class*="s-"]:not([class*="-hidden"]),
+  .content-distribute[class*="unit-s-"]:not([class*="-hidden"]),
+  .content-distribute[class*="s-"]:not([class*="-hidden"]),
+  .unit-content-center:not([class*="-hidden"]),
+  .unit-content-center-vertical:not([class*="-hidden"]),
+  .unit-content-center-horizontal:not([class*="-hidden"]),
+  .unit-s-content-distribute[class*="unit-s-"]:not([class*="-hidden"]),
+  .unit-s-content-distribute[class*="s-"]:not([class*="-hidden"]),
+  .s-content-distribute[class*="unit-s-"]:not([class*="-hidden"]),
+  .s-content-distribute[class*="s-"]:not([class*="-hidden"]),
+  .unit-s-content-center:not([class*="-hidden"]),
+  .unit-s-content-center-vertical:not([class*="-hidden"]),
+  .unit-s-content-center-horizontal:not([class*="-hidden"]) {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -577,11 +595,20 @@
     align-self: center;
   }
 
-  .unit-content-distribute[class*="unit-m-"]:not([class*="m-hidden"]),
-  .content-distribute[class*="m-"]:not([class*="m-hidden"]),
-  .unit-content-center:not([class*="m-hidden"]),
-  .unit-content-center-vertical:not([class*="m-hidden"]),
-  .unit-content-center-horizontal:not([class*="m-hidden"]) {
+  .unit-content-distribute[class*="unit-m-"]:not([class*="-hidden"]),
+  .unit-content-distribute[class*="m-"]:not([class*="-hidden"]),
+  .content-distribute[class*="unit-m-"]:not([class*="-hidden"]),
+  .content-distribute[class*="m-"]:not([class*="-hidden"]),
+  .unit-content-center:not([class*="-hidden"]),
+  .unit-content-center-vertical:not([class*="-hidden"]),
+  .unit-content-center-horizontal:not([class*="-hidden"]),
+  .unit-m-content-distribute[class*="unit-m-"]:not([class*="-hidden"]),
+  .unit-m-content-distribute[class*="m-"]:not([class*="-hidden"]),
+  .m-content-distribute[class*="unit-m-"]:not([class*="-hidden"]),
+  .m-content-distribute[class*="m-"]:not([class*="-hidden"]),
+  .unit-m-content-center:not([class*="-hidden"]),
+  .unit-m-content-center-vertical:not([class*="-hidden"]),
+  .unit-m-content-center-horizontal:not([class*="-hidden"]) {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -779,11 +806,20 @@
     align-self: center;
   }
 
-  .unit-content-distribute[class*="unit-l-"]:not([class*="l-hidden"]),
-  .content-distribute[class*="l-"]:not([class*="l-hidden"]),
-  .unit-content-center:not([class*="l-hidden"]),
-  .unit-content-center-vertical:not([class*="l-hidden"]),
-  .unit-content-center-horizontal:not([class*="l-hidden"]) {
+  .unit-content-distribute[class*="unit-l-"]:not([class*="-hidden"]),
+  .unit-content-distribute[class*="l-"]:not([class*="-hidden"]),
+  .content-distribute[class*="unit-l-"]:not([class*="-hidden"]),
+  .content-distribute[class*="l-"]:not([class*="-hidden"]),
+  .unit-content-center:not([class*="-hidden"]),
+  .unit-content-center-vertical:not([class*="-hidden"]),
+  .unit-content-center-horizontal:not([class*="-hidden"]),
+  .unit-l-content-distribute[class*="unit-l-"]:not([class*="-hidden"]),
+  .unit-l-content-distribute[class*="l-"]:not([class*="-hidden"]),
+  .l-content-distribute[class*="unit-l-"]:not([class*="-hidden"]),
+  .l-content-distribute[class*="l-"]:not([class*="-hidden"]),
+  .unit-l-content-center:not([class*="-hidden"]),
+  .unit-l-content-center-vertical:not([class*="-hidden"]),
+  .unit-l-content-center-horizontal:not([class*="-hidden"]) {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
