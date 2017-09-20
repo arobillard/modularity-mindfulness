@@ -4,7 +4,6 @@ html {
 
 [lang="ja"] {
   font-family: "Noto Sans Japanese", sans-serif;
-  font-style: normal;
 }
 
 .logo,
@@ -18,12 +17,17 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #860927;
+  border-color:  #860927;
+}
+
 main header div {
   border-top: 1.5px solid #e2e2e2;
   border-bottom: 1.5px solid #e2e2e2;
 }
 
-.max-length {
+.max-length-eng {
   max-width: 10rem;
 }
 
@@ -45,7 +49,7 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  .max-length {
+  .max-length-eng {
     max-width: 17rem;
   }
 
@@ -53,7 +57,7 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  .max-length {
+  .max-length-eng {
     max-width: 24em;
   }
 
@@ -67,6 +71,14 @@ footer {
 
   nav {
     text-align: right;
+  }
+
+  .max-length {
+    max-width: 36em;
+  }
+
+  .max-length-eng {
+    max-width: 24em;
   }
 
 }
